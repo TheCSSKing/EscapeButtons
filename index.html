@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+		<head>
+			<title>Escape Buttons</title>
+			<link href="./css/bootstrap.min.css" rel="stylesheet">
+			<link href="./css/main.css" rel="stylesheet">
+
+			<link rel="canonical" href="https://www.thecssking.com/EscapeButtons/" />
+			<meta charset="utf-8" /> 
+			<meta name="description" content="A tiny library of CSS blink animations for the modern web." />
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+			<!-- Open Graph tags -->
+			<meta property="og:title" content="Blink.CSS" />
+			<meta property="og:description" content="A tiny library of CSS blink animations for the modern web." />
+			<meta property="og:url" content="https://www.thecssking.com/EscapeButtons" />
+			<meta property="og:image" content="TODO" />
+
+			<!-- No need to duplicate OG tags - twitter will check for them (https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html) -->
+			<meta name="twitter:card" content="summary" />
+			<meta name="twitter:creator" content="TODO" />
+		</head>
+
+		<body>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm text-center mt-4">
+						<h2 class="font-weight-bold">
+							Escape Buttons
+						</h2>
+						<h4 class="font-weight-light">Buttons that are hard to click.  Desktop only (requires mouse).</h4>
+						<p class="mt-3"><a href="https://github.com/thecssking/BlinkCSS/releases/download/1.0/blink.css">Download the Library</a> or <a href="https://github.com/TheCSSKing/BlinkCSS">View on Github</a></p>
+					</div>
+				</div>
+				<div class="row mt-3">
+				    <div class="col-sm text-center">
+				      <p><strong>btn-push</strong></p>
+				      <p><button class="btn btn-dark btn-escape btn-push">Push Button</button></p>
+				      <p><strong>btn-jump</strong></p>
+				      <p><button class="btn btn-dark btn-escape btn-jump">Jump Button</button></p>
+				      <p><strong>btn-warp</strong></p>
+				      <p><button class="btn btn-dark btn-escape btn-warp">Warp Button</button></p>
+				      <p class="mt-4"><strong>btn-zip</strong></p>
+				      <p><button class="btn btn-dark btn-escape btn-zip" id="btn5">Zip Button</button></p>
+				      <p class="mt-4"><strong>btn-fakeout</strong></p>
+				      <p><button class="btn btn-dark btn-escape btn-fakeout">Fakeout Button</button></p>
+				    </div>
+				 </div>
+				 <div class="row mt-4">
+					<div class="col-sm-6 offset-sm-3 text-center">
+						<p class=""><strong>Usage:</strong> Include the JS file on the page, then add classes <code>btn-escape</code> and the button specific class (IE <code>btn-jump</code>) directly on to the button you want to animate.</p>
+<!-- 						<p class="mt-4"><a href="https://github.com/thecssking/BlinkCSS/releases/download/1.0/blink.css">Download the Library</a> or <a href="https://github.com/TheCSSKing/BlinkCSS">View on Github</a></p> -->
+					</div>
+				</div>
+				<div class="row mt-4 mb-5">
+					<div class="col-sm-6 offset-sm-3 text-center">
+						Built by The Luminary of LESS, <a href="https://www.thecssking.com" class="element-animated" id="kingLink">The CSS King</a>
+					</div>  
+				</div>
+			</div>
+
+			<div class="secret-modal">
+				<button class="close">&times;</button>
+				<h2>Well Done!</h2>
+				<h5>You managed to click one of the buttons!</h5>
+				<p> This should not be possible.  Please help me fix the issue by filing a detailed bug report.</p>
+				<button class="btn btn-dark btn-escape btn-bug">File a Bug Report</button>
+			</div>
+
+			<script src="./js/escape-buttons.js"></script>
+			<script src="./js/main.js"></script>
+		</body>
+</html>
